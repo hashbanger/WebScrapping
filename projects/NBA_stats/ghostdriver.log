@@ -1,0 +1,63 @@
+[INFO  - 2019-07-01T04:34:44.383Z] GhostDriver - Main - running on port 56343
+[INFO  - 2019-07-01T04:34:45.301Z] Session [8d4587b0-9bb9-11e9-a3dd-39f28a72b067] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Unknown; Linux x86_64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2019-07-01T04:34:45.301Z] Session [8d4587b0-9bb9-11e9-a3dd-39f28a72b067] - page.customHeaders:  - {}
+[INFO  - 2019-07-01T04:34:45.302Z] Session [8d4587b0-9bb9-11e9-a3dd-39f28a72b067] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"linux-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2019-07-01T04:34:45.302Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 8d4587b0-9bb9-11e9-a3dd-39f28a72b067
+[ERROR - 2019-07-01T04:34:48.406Z] Session [8d4587b0-9bb9-11e9-a3dd-39f28a72b067] - page.onError - msg: TypeError: Attempting to configurable attribute of unconfigurable property.
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-07-01T04:34:48.407Z] Session [8d4587b0-9bb9-11e9-a3dd-39f28a72b067] - page.onError - stack:
+  defineProperty (https://assets.adobedtm.com/1d1f22b7fbd1c6b82b92f8fffd66868071b86080/scripts/satellite-5ba934fc64746d1c88001ef7.js:2)
+  e (https://assets.adobedtm.com/1d1f22b7fbd1c6b82b92f8fffd66868071b86080/scripts/satellite-5ba934fc64746d1c88001ef7.js:2)
+  (anonymous function) (https://assets.adobedtm.com/1d1f22b7fbd1c6b82b92f8fffd66868071b86080/scripts/satellite-5ba934fc64746d1c88001ef7.js:2)
+  (anonymous function) (https://assets.adobedtm.com/1d1f22b7fbd1c6b82b92f8fffd66868071b86080/scripts/satellite-5ba934fc64746d1c88001ef7.js:2)
+  (anonymous function) (https://assets.adobedtm.com/1d1f22b7fbd1c6b82b92f8fffd66868071b86080/scripts/satellite-5ba934fc64746d1c88001ef7.js:2)
+  (anonymous function) (https://assets.adobedtm.com/1d1f22b7fbd1c6b82b92f8fffd66868071b86080/scripts/satellite-5ba934fc64746d1c88001ef7.js:2)
+  t (https://assets.adobedtm.com/1d1f22b7fbd1c6b82b92f8fffd66868071b86080/scripts/satellite-5ba934fc64746d1c88001ef7.js:2)
+  r (https://assets.adobedtm.com/1d1f22b7fbd1c6b82b92f8fffd66868071b86080/scripts/satellite-5ba934fc64746d1c88001ef7.js:2)
+  (anonymous function) (https://assets.adobedtm.com/1d1f22b7fbd1c6b82b92f8fffd66868071b86080/scripts/satellite-5ba934fc64746d1c88001ef7.js:2)
+  reduce (:0)
+  (anonymous function) (https://assets.adobedtm.com/1d1f22b7fbd1c6b82b92f8fffd66868071b86080/scripts/satellite-5ba934fc64746d1c88001ef7.js:2)
+  (anonymous function) (https://assets.adobedtm.com/1d1f22b7fbd1c6b82b92f8fffd66868071b86080/scripts/satellite-5ba934fc64746d1c88001ef7.js:2)
+  t (https://assets.adobedtm.com/1d1f22b7fbd1c6b82b92f8fffd66868071b86080/scripts/satellite-5ba934fc64746d1c88001ef7.js:2)
+  (anonymous function) (https://assets.adobedtm.com/1d1f22b7fbd1c6b82b92f8fffd66868071b86080/scripts/satellite-5ba934fc64746d1c88001ef7.js:2)
+  (anonymous function) (https://assets.adobedtm.com/1d1f22b7fbd1c6b82b92f8fffd66868071b86080/scripts/satellite-5ba934fc64746d1c88001ef7.js:2)
+  (anonymous function) (https://assets.adobedtm.com/1d1f22b7fbd1c6b82b92f8fffd66868071b86080/scripts/satellite-5ba934fc64746d1c88001ef7.js:2)
+  (anonymous function) (https://assets.adobedtm.com/1d1f22b7fbd1c6b82b92f8fffd66868071b86080/scripts/satellite-5ba934fc64746d1c88001ef7.js:2)
+  pushBlockingScript (https://assets.adobedtm.com/1d1f22b7fbd1c6b82b92f8fffd66868071b86080/satelliteLib-fa25bab22138a5e024a2482c63100bc96327f717.js:12)
+  pushBlockingScript (https://assets.adobedtm.com/1d1f22b7fbd1c6b82b92f8fffd66868071b86080/satelliteLib-fa25bab22138a5e024a2482c63100bc96327f717.js:11)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-07-01T04:34:50.203Z] Session [8d4587b0-9bb9-11e9-a3dd-39f28a72b067] - page.onError - msg: ReferenceError: Can't find variable: AdobePrivacy
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-07-01T04:34:50.204Z] Session [8d4587b0-9bb9-11e9-a3dd-39f28a72b067] - page.onError - stack:
+  global code (https://assets.adobedtm.com/1d1f22b7fbd1c6b82b92f8fffd66868071b86080/s-code-contents-e79c0a9ed7ac4ad3ba68edae3fdfcf4f07968367.js:25)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-07-01T04:34:56.344Z] Session [8d4587b0-9bb9-11e9-a3dd-39f28a72b067] - page.onError - msg: ReferenceError: Can't find variable: pSUPERFLY
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-07-01T04:34:56.345Z] Session [8d4587b0-9bb9-11e9-a3dd-39f28a72b067] - page.onError - stack:
+  global code (https://in.global.nba.com/players/#!/jaylen_adams:1)
+  insertBefore (:0)
+  (anonymous function) (https://www.googletagmanager.com/gtm.js?id=GTM-K6VV8QC&gtm_cookies_win=x&l=gtmDataLayer&__=1561955689596:1044)
+  c (https://www.googletagmanager.com/gtm.js?id=GTM-K6VV8QC&gtm_cookies_win=x&l=gtmDataLayer&__=1561955689596:1046)
+  $b (https://www.googletagmanager.com/gtm.js?id=GTM-K6VV8QC&gtm_cookies_win=x&l=gtmDataLayer&__=1561955689596:920)
+  e (https://www.googletagmanager.com/gtm.js?id=GTM-K6VV8QC&gtm_cookies_win=x&l=gtmDataLayer&__=1561955689596:956)
+  (anonymous function) (https://www.googletagmanager.com/gtm.js?id=GTM-K6VV8QC&gtm_cookies_win=x&l=gtmDataLayer&__=1561955689596:900)
+  (anonymous function) (https://www.googletagmanager.com/gtm.js?id=GTM-K6VV8QC&gtm_cookies_win=x&l=gtmDataLayer&__=1561955689596:957)
+  (anonymous function) (https://www.googletagmanager.com/gtm.js?id=GTM-K6VV8QC&gtm_cookies_win=x&l=gtmDataLayer&__=1561955689596:956)
+  te (https://www.googletagmanager.com/gtm.js?id=GTM-K6VV8QC&gtm_cookies_win=x&l=gtmDataLayer&__=1561955689596:957)
+  ve (https://www.googletagmanager.com/gtm.js?id=GTM-K6VV8QC&gtm_cookies_win=x&l=gtmDataLayer&__=1561955689596:959)
+  lf (https://www.googletagmanager.com/gtm.js?id=GTM-K6VV8QC&gtm_cookies_win=x&l=gtmDataLayer&__=1561955689596:965)
+  mf (https://www.googletagmanager.com/gtm.js?id=GTM-K6VV8QC&gtm_cookies_win=x&l=gtmDataLayer&__=1561955689596:964)
+  nf (https://www.googletagmanager.com/gtm.js?id=GTM-K6VV8QC&gtm_cookies_win=x&l=gtmDataLayer&__=1561955689596:967)
+  push (https://www.googletagmanager.com/gtm.js?id=GTM-K6VV8QC&gtm_cookies_win=x&l=gtmDataLayer&__=1561955689596:969)
+  push (https://www.google-analytics.com/gtm/js?id=GTM-MQPKHJS&l=gtmDataLayer&t=gtm5&cid=498351551.1561955691:92)
+  jf (https://www.googletagmanager.com/gtm.js?id=GTM-K6VV8QC&gtm_cookies_win=x&l=gtmDataLayer&__=1561955689596:964)
+  Zh (https://www.googletagmanager.com/gtm.js?id=GTM-K6VV8QC&gtm_cookies_win=x&l=gtmDataLayer&__=1561955689596:993)
+  (anonymous function) (https://www.googletagmanager.com/gtm.js?id=GTM-K6VV8QC&gtm_cookies_win=x&l=gtmDataLayer&__=1561955689596:1038)
+  (anonymous function) (https://www.googletagmanager.com/gtm.js?id=GTM-K6VV8QC&gtm_cookies_win=x&l=gtmDataLayer&__=1561955689596:1036)
+
+  phantomjs://platform/console++.js:263 in error
